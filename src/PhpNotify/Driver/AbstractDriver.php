@@ -1,12 +1,8 @@
 <?php
-/**
- * @package    calcinai/rubberneck
- * @author     Michael Calcinai <michael@calcin.ai>
- */
 
-namespace Calcinai\Rubberneck\Driver;
+namespace Pjeutr\PhpNotify\Driver;
 
-use Calcinai\Rubberneck\Observer;
+use Pjeutr\PhpNotify\Observer;
 
 abstract class AbstractDriver {
 

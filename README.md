@@ -1,4 +1,4 @@
-# Rubberneck
+# PhpNotify
 A simple binding for ReactPHP event loops to watch files.
 
 Currently only file poling and inotifywait in implemented, but is designed with stubs for other methods.
@@ -10,7 +10,7 @@ poll method.
 
 ```php
 $loop = \React\EventLoop\Factory::create();
-$observer = new \Calcinai\Rubberneck\Observer($loop);
+$observer = new \Pjeutr\PhpNotify\Observer($loop);
 
 $observer->onModify(function($file_name){
     echo "Modified: $file_name\n";

@@ -3,7 +3,7 @@
 include __DIR__.'/../vendor/autoload.php';
 
 $loop = \React\EventLoop\Factory::create();
-$observer = new \Calcinai\Rubberneck\Observer($loop);
+$observer = new \Pjeutr\PhpNotify\Observer($loop);
 
 $observer->onModify(function($file_name){
     echo "Modified: $file_name\n";

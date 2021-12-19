@@ -1,13 +1,8 @@
 <?php
 
-/**
- * @package    calcinai/phpi
- * @author     Michael Calcinai <michael@calcin.ai>
- */
+namespace Pjeutr\PhpNotify\Driver;
 
-namespace Calcinai\Rubberneck\Driver;
-
-use Calcinai\Rubberneck\Observer;
+use Pjeutr\PhpNotify\Observer;
 
 class EpollWait extends AbstractDriver implements DriverInterface {
     static $cli_command = '/scripts/epoll_userspace';

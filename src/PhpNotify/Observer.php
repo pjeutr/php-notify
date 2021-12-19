@@ -1,16 +1,15 @@
 <?php
 
 /**
- * @package    rubberneck
- * @author     Michael Calcinai <michael@calcin.ai>
+ * @package    php-notify
  */
 
-namespace Calcinai\Rubberneck;
+namespace Pjeutr\PhpNotify;
 
 use Evenement\EventEmitterTrait;
 use React\EventLoop\LoopInterface;
 
-use Calcinai\Rubberneck\Driver;
+use Pjeutr\PhpNotify\Driver;
 
 class Observer {
 

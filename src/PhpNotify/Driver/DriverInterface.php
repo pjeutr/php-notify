@@ -1,13 +1,8 @@
 <?php
 
-/**
- * @package    rubberneck
- * @author     Michael Calcinai <michael@calcin.ai>
- */
+namespace Pjeutr\PhpNotify\Driver;
 
-namespace Calcinai\Rubberneck\Driver;
-
-use Calcinai\Rubberneck\Observer;
+use Pjeutr\PhpNotify\Observer;
 
 interface DriverInterface {
     public function watch($path);
